@@ -24,8 +24,8 @@
 | |-📃[AppModule.java](AppModule.java)  
 | |-📃[MyApplication.java](MyApplication.java)  
 |-📁res  
- |-📁values
-  |-📃[dimens.xml](dimens.xml)
+  |-📁values  
+      |-📃[dimens.xml](dimens.xml)  
 
 ## Security
 
