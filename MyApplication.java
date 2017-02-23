@@ -1,4 +1,3 @@
-import android.app.Application;
 
 import com.watanabear.sample.domain.DomainModule;
 import com.watanabear.sample.infra.InfraModule;
