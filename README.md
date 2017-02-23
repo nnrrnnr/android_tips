@@ -1,9 +1,9 @@
 # Android Tips
 
 ## TOC
-- [Architecture](#Architecture)
-- [Security](#Security)
-- [OSS Library](#OSS Library)
+- [Architecture](#architecture)
+- [Security](#security)
+- [OSS Library](#oss library)
 
 
 ## Architecture
