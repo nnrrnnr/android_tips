@@ -1,5 +1,11 @@
 # Android Tips
 
+## TOC
+- [Architecture](#Architecture)
+- [Security](#Security)
+- [OSS Library](#OSS Library)
+
+
 ## Architecture
 ```
 |-java/com/watanabear/sample  
