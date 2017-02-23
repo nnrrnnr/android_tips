@@ -1,27 +1,31 @@
 # Android Tips
 
 ## Architecture
-📁domain  
-|-📁 model  
-|-📁 repository  
-|-📁 usecase   
-|-📁 exception   
-|-📃[DomainModule.java](DomainModule.java)  
-📁infra  
-|-📁 repository    
-|-📃[InfraModule.java](InfraModule.java)  
-📁presentation  
-|-📁 activity  
-|-📁 fragment  
-|-📁 presenter  
-|-📁 view　  
-|  |-📁 adapter  
-|  |-📁 dialog  
-|  |-CustomButton.java  
-|-📃[PresentationComponent.java](PresentationComponent.java)  
-📃[AppComponent.java](AppComponent.java)  
-📃[AppModule.java](AppModule.java)  
-📃[MyApplication.java](MyApplication.java)  
+|-java/com/watanabear/sample  
+| |-📁domain  
+| | |-📁 model  
+| | |-📁 repository  
+| | |-📁 usecase   
+| | |-📁 exception   
+| | |-📃[DomainModule.java](DomainModule.java)  
+| |-📁infra  
+| | |-📁 repository    
+| | |-📃[InfraModule.java](InfraModule.java)  
+| |-📁presentation  
+| | |-📁 activity  
+| | |-📁 fragment  
+| | |-📁 presenter  
+| | |-📁 view　  
+| | |  |-📁 adapter  
+| | |  |-📁 dialog  
+| | |  |-CustomButton.java  
+| | |-📃[PresentationComponent.java](PresentationComponent.java)  
+| |-📃[AppComponent.java](AppComponent.java)  
+| |-📃[AppModule.java](AppModule.java)  
+| |-📃[MyApplication.java](MyApplication.java)  
+|-📁res  
+ |-📁values
+  |-📃[dimens.xml](dimens.xml)
 
 ## Security
 
