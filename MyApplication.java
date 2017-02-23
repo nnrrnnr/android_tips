@@ -9,6 +9,13 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        if (BuildConfig.DEBUG) {
+          Timber.plant(new DebugTree());
+        } else {
+          Timber.plant(new CrashReportingTree());
+        }
+
         appComponent = DaggerAppComponent
                 .builder()
                 .appModule(new AppModule(this))
@@ -20,4 +27,29 @@ public class MyApplication extends Application {
     public AppComponent getAppComponent() {
         return appComponent;
     }
+
+    /**
+    * 独自のTree
+    */
+    private static class CrashReportingTree extends Timber.HollowTree {
+
+        @Override public void i(String msg, Object... args) {
+          i(msg, args);
+          Crashlytics.log(String.format(msg, args));
+        }
+
+        @Override public void i(Throwable t, String msg, Object... args) {
+          i(msg, args);
+        }
+
+        @Override public void i(String msg, Object... args) {
+          i("error : " + msg, args);
+        }
+
+        @Override public void i(Throwable t, String msg, Object... args) {
+          i(msg, args);
+          Crashlytics.logException(t);
+        }
+    }
+  }
 }
