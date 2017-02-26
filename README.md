@@ -65,3 +65,11 @@ Log
 A logger with a small, extensible API which provides utility on top of Android's normal Log class.
   - 引数にフォーマット文とObjectを渡すことができる
   - Logクラスのラッパーなのでライブラリが薄い
+  
+MobileDataBase
+- [Realm](https://realm.io/docs/java/latest/#getting-started)  
+Realm Mobile Database is an alternative to SQLite and Core Data. 
+- [ORMA](https://github.com/gfx/Android-Orma)  
+Orma is an ORM (Object-Relation Mapper) for Android SQLiteDatabase, generating helper classes at compile time with annotation processing, inspired in ActiveAndroid, GreenDAO, and Realm.
+- [ObectBox](https://github.com/greenrobot/ObjectBox)  
+ObjectBox is a new superfast mobile database for objects.
