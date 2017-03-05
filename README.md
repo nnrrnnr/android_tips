@@ -6,7 +6,7 @@
 - [OSS Library](#oss-library)
 
 
-## Architecture
+## Architecture（MVP)
 ```
 |-java/com/watanabear/sample  
 | |-📁 domain  
