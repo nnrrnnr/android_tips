@@ -85,9 +85,9 @@ RecyclerViewと従来のAdapterView（ListView、Spinnerなど）のユーティ
 ![](https://cloud.githubusercontent.com/assets/1239253/15986483/ed4f72d6-3043-11e6-81bb-4831991f727d.gif)
 
 ##[CatHandsGendroid](https://github.com/cattaka/CatHandsGendroid)
-[AndroidのSQLiteの面倒臭いを簡単にする](http://qiita.com/cattaka/items/1edd041c59cbcfeb6ff4)
-[AndroidのSQLiteの面倒臭いを簡単にする(2)](http://qiita.com/cattaka/items/e8d42f8d7388daf82cd2)
-[AndroidのSQLiteの面倒臭いを簡単にする(3)](http://qiita.com/cattaka/items/43ef5c9945437f9967d5)
+- [AndroidのSQLiteの面倒臭いを簡単にする](http://qiita.com/cattaka/items/1edd041c59cbcfeb6ff4)
+- [AndroidのSQLiteの面倒臭いを簡単にする(2)](http://qiita.com/cattaka/items/e8d42f8d7388daf82cd2)
+- [AndroidのSQLiteの面倒臭いを簡単にする(3)](http://qiita.com/cattaka/items/43ef5c9945437f9967d5)
 
 ##[SimpleCropView](https://github.com/IsseiAoki/SimpleCropView)
 [【Android】画像の切り抜きをシンプルに実装できるライブラリを公開しました-SimpleCropView](http://qiita.com/issei_aoki/items/810f491da2e3d077b478)
