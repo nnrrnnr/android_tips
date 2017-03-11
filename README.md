@@ -163,7 +163,8 @@ final String name = "LicensesDialog";
 ##[TresureDataAndroidSDK](https://docs.treasuredata.com/articles/android-sdk)
 アプリの動作を追跡できるサービスのSDKですね。インフラストラクチャ全体を管理し、サポートしているので、データを管理するのではなく、データを分析して、自分が何をすべきかに集中することができる.
 
-
+##[PhotoView](https://github.com/chrisbanes/PhotoView)
+PhotoViewは、Zooming Android ImageViewを簡単に使用できるようにすることを目的としています。
 
 
 
