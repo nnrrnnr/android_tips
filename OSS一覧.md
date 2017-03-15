@@ -40,7 +40,7 @@ ObjectBox is a new superfast mobile database for objects.
 
 Marshmallowのランタイムアクセス権を処理するためのアノテーションベースのAPIを提供してくれます。
 
-##[AdapterToolbox](https://github.com/cattaka/AdapterToolbox)
+## [AdapterToolbox](https://github.com/cattaka/AdapterToolbox)
 
 RecyclerViewと従来のAdapterView（ListView、Spinnerなど）のユーティリティクラスです。
 
