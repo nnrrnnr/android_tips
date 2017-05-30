@@ -4,7 +4,7 @@
 - [Architecture](#architecture)
 - [Security](#security)
 - [OSS Library](#oss-library)
-
+https://github.com/watanabear/android_tips/blob/master/OSS%E4%B8%80%E8%A6%A7.md
 
 ## Architecture（MVP)
 ```
