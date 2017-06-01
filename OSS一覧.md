@@ -83,3 +83,6 @@ final String name = "LicensesDialog";
 
 ## [PhotoView](https://github.com/chrisbanes/PhotoView)
 PhotoViewは、Zooming Android ImageViewを簡単に使用できるようにすることを目的としています。
+
+## [AHBottomNavigation](https://github.com/aurelhubert/ahbottomnavigation)
+Library to implement the Bottom Navigation component from Material Design guidelines (minSdkVersion=14).
