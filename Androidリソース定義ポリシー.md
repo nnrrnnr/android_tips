@@ -1,4 +1,6 @@
-http://techlife.cookpad.com/entry/android-resource-policy
+# Reference
+- http://techlife.cookpad.com/entry/2016/05/17/115024
+- http://techlife.cookpad.com/entry/android-resource-policy
 
 # Policy
 - 本当に汎用的に使える部分のみ汎用リソースとして定義する
