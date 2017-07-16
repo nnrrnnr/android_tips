@@ -1,39 +1,7 @@
 # Android Tips
 
-## TOC
-- [Architecture](#architecture)
-- [Security](#security)
-- [OSS Library](#oss-library)
 https://github.com/watanabear/android_tips/blob/master/OSS%E4%B8%80%E8%A6%A7.md
 
-## Architecture（MVP)
-```
-|-java/com/watanabear/sample  
-| |-📁 domain  
-| | |-📁 model  
-| | |-📁 repository  
-| | |-📁 usecase   
-| | |-📁 exception   
-| | |-📃 DomainModule.java
-| |-📁 infra  
-| | |-📁 repository    
-| | |-📃 InfraModule.java
-| |-📁 presentation  
-| | |-📁 activity  
-| | |-📁 fragment  
-| | |-📁 presenter  
-| | |-📁 view　  
-| | |  |-📁 adapter  
-| | |  |-📁 dialog  
-| | |  |-📃 CustomButton.java  
-| | |-📃 PresentationComponent.java
-| |-📃 AppComponent.java
-| |-📃 AppModule.java
-| |-📃 MyApplication.java  
-|-📁 res  
-  |-📁 values  
-    |-📃 dimens.xml  
-```
 ## gitignore
 
 http://qiita.com/kgmyshin/items/5d92915b3d0b8c69cfd4
@@ -78,7 +46,6 @@ ehthumbs.db
 Thumbs.db
 ```
 
-## Security
 
 
 
